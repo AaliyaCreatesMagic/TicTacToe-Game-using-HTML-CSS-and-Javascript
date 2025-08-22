@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+
+  <div class="player-inputs">
+    <input type="text" id="player1" placeholder="Player 1 Name" value="Player 1">
+    <input type="text" id="player2" placeholder="Player 2 Name" value="Player 2">
+  </div>
+
+  <button onclick="startGame()">Start</button>
+  <button onclick="restartGame()">Restart</button>
+
+  <div id="board" class="board"></div>
+
+  <!-- New status area -->
+  <div id="status" class="status"></div>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
